@@ -1,0 +1,30 @@
+{
+    "name": "uuf6429/oas-php",
+    "description": "OpenAPI Specification PHP implementation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Sciberras",
+            "email": "christian@sciberras.me"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4",
+        "ext-json":  "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "uuf6429\\OpenAPI\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "uuf6429\\OpenAPI\\": "test"
+        }
+    }
+}
